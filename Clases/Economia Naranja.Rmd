@@ -1,0 +1,14 @@
+---
+title: "Economia Naranja"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r}
+orangeec <- read.csv("/Users/nicolasnn/Documents/R/Clases")
+data(orangeec) 
+summary(orangeec)
+```
+
+
